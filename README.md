@@ -7,9 +7,7 @@ For the set-up run the following in the terminal
 
 mkdir users  
 cd users  
-
-npm init
-
+npm init  
 npm install --save mongoose mocha express supertest body-parser nodemon
 
 then in the *package.json* add "test": "nodemon --exec 'mocha -R min'" in the script entry.
